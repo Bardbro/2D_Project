@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - GemUI
+  - HealthUI
+  - stats
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - maincamera
+  - Water
+  - UI
+  - Player
+  - Ground
+  - ignore
+  - PlayerStats
+  - EnemyAttack
+  - Enemy
+  - Gem
+  - PlayerAttack
+  - Destruction
+  - Ladders
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 2920070491
+    locked: 0
+  - name: 'Ground '
+    uniqueID: 3364762381
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MiddleGround
+    uniqueID: 4067814345
+    locked: 0
+  - name: Player
+    uniqueID: 2678106923
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3677246541
+    locked: 0
