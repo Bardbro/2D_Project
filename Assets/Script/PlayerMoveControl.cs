@@ -61,10 +61,12 @@ public class PlayerMoveControl : MonoBehaviour
         {
             grounded = true;
             additionalJumps = jumpResetNumber;
+            rb.interpolation = RigidbodyInterpolation2D.None;// Set interpolation to None when grounded
         }
         else
         {
             grounded = false;
+            rb.interpolation = RigidbodyInterpolation2D.Interpolate; // Set interpolation to Interpolate when not grounded
         }
         SeeRay(leftCheckHit);
     }
@@ -153,5 +155,15 @@ public class PlayerMoveControl : MonoBehaviour
         knockback = false;
         rb.velocity = Vector2.zero;
    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Ladder")
+        {
+            onLadders = true;
+        }
+    }
+
     
+
 }

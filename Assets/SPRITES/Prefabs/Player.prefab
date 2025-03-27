@@ -344,8 +344,9 @@ PolygonCollider2D:
       - {x: -0.7157698, y: 0.6205636}
       - {x: -0.6374407, y: -0.6286527}
       - {x: -0.37558502, y: -0.6429478}
-      - {x: -0.008566737, y: -0.64254665}
-      - {x: 0.12031031, y: 0.53498846}
+      - {x: 0.043895364, y: -0.64254665}
+      - {x: 0.08542347, y: -0.27069104}
+      - {x: 0.13461828, y: 0.5445271}
   m_UseDelaunayMesh: 0
 --- !u!114 &9053196595904641202
 MonoBehaviour:
@@ -517,8 +518,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.2863791, y: -0.050465167}
-  m_Size: {x: 0.85143614, y: 1.4067205}
+  m_Offset: {x: -0.29353285, y: -0.06954235}
+  m_Size: {x: 0.77989674, y: 1.3685662}
   m_Direction: 0
 --- !u!114 &913417737091546820
 MonoBehaviour:
@@ -568,6 +569,8 @@ MonoBehaviour:
   valueY: 0
   tryToClimb: 0
   pause: 0
+  pauseMenuCanvas: {fileID: 0}
+  MainToload: 0
 --- !u!114 &8510778702170788626
 MonoBehaviour:
   m_ObjectHideFlags: 0
