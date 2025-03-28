@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -942,7 +941,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1753902, y: -0.5977422, z: -10}
+  m_LocalPosition: {x: -3.1753902, y: -0.59775317, z: -10}
   m_LocalScale: {x: 1.0283, y: 1.0283, z: 1.0283}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2956,8 +2955,8 @@ Tilemap:
   - first: {x: 6, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 11
-      m_TileSpriteIndex: 10
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2966,8 +2965,8 @@ Tilemap:
   - first: {x: 7, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 11
-      m_TileSpriteIndex: 10
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3487,7 +3486,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4605,7 +4604,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 44
+  - m_RefCount: 46
     m_Data: {fileID: 11400000, guid: e4fef89f0f97c8d4ba7f244e9b9dea0f, type: 2}
   - m_RefCount: 90
     m_Data: {fileID: 11400000, guid: b82352985f76f454cafc12e1a667b962, type: 2}
@@ -4627,8 +4626,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 7881b3882f0e7234389524118ef04e8d, type: 2}
   - m_RefCount: 11
     m_Data: {fileID: 11400000, guid: fb9b7aa0410c79c46925bce5f4c5fd64, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 84d92dd986757a04fa90030767f40bdb, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 47
     m_Data: {fileID: 11400000, guid: 4d65e0c229909954a8a4702f8d08a2e7, type: 2}
   - m_RefCount: 2
@@ -4640,7 +4639,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: c229fab0cb839314cab1f11d526376ff, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 44
+  - m_RefCount: 46
     m_Data: {fileID: 942418693, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 90
     m_Data: {fileID: -546715538, guid: 60618f7da3da8654f950434c77445896, type: 3}
@@ -4648,8 +4647,8 @@ Tilemap:
     m_Data: {fileID: 445195923, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -1068912682, guid: 60618f7da3da8654f950434c77445896, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1362097637, guid: 60618f7da3da8654f950434c77445896, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 53
     m_Data: {fileID: -1433046767, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 6
@@ -4660,8 +4659,8 @@ Tilemap:
     m_Data: {fileID: -1458999315, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -280914094, guid: 60618f7da3da8654f950434c77445896, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: -1776845665, guid: 60618f7da3da8654f950434c77445896, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1362097637, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 211143286, guid: 60618f7da3da8654f950434c77445896, type: 3}
   - m_RefCount: 47
@@ -19265,6 +19264,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &1346042032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19365,7 +19365,7 @@ GameObject:
   - component: {fileID: 1370301940}
   m_Layer: 5
   m_Name: NumberOfGem
-  m_TagString: Untagged
+  m_TagString: GemUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19422,7 +19422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &1370301941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20379,6 +20379,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7485998688981520038, guid: b87f4adce4a8d7043adcc9b107b1dc89, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485998688981520038, guid: b87f4adce4a8d7043adcc9b107b1dc89, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

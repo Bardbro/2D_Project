@@ -41,6 +41,19 @@ public class Fader : MonoBehaviour
    {
     Invoke("Restart",1.5f);
    }
+
+   // New function to reset to level 1 and clear all saved data
+    public void ResetToLevelOne()
+    {
+        // Reset saved level to 1
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        // Reset other statuses (if any)
+        Debug.Log("Resetting to level 1 and clearing all statuses.");
+
+        // Set level to 1 and trigger fade animation
+        SetLevel(1);
+    }
    public void ExitGame()
    {
     Application.Quit();

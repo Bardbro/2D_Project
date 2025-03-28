@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -652,7 +651,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 162.09, y: -50}
+  m_AnchoredPosition: {x: 162.08997, y: -50}
   m_SizeDelta: {x: 135.03, y: 27.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &416351822
@@ -843,7 +842,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8387337, y: 1.8469759, z: -10}
+  m_LocalPosition: {x: -3.8419323, y: 1.8470393, z: -10}
   m_LocalScale: {x: 1.0283, y: 1.0283, z: 1.0283}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -17206,7 +17205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -130.80002, y: -59.199997}
+  m_AnchoredPosition: {x: -130.80005, y: -59.200012}
   m_SizeDelta: {x: 64.95001, y: 70.29001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1238697750
@@ -17440,6 +17439,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!114 &1346042032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17602,7 +17602,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 0
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &1370301941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18652,6 +18652,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7485998688981520038, guid: b87f4adce4a8d7043adcc9b107b1dc89, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7485998688981520038, guid: b87f4adce4a8d7043adcc9b107b1dc89, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
