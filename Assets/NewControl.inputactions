@@ -9,7 +9,7 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "553fe4b3-c9ff-48d4-851b-8f9b44da67df",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -55,6 +55,17 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "eb8b0339-eaef-4f93-b27e-4aa12f4f1b70",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "LeftRight",
                     "id": "b92aa633-5438-4bd4-a55e-f08ad9a450ea",
                     "path": "1DAxis",
@@ -88,9 +99,53 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "LeftRight pad",
+                    "id": "0e9bdf62-1037-47ef-bd93-70072df4cd2f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "8e612f7b-6f1f-4802-8d6f-4bcae0f6998e",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "d5455bc1-0d21-4b15-8d64-28e8a7c95a85",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "5da02775-29d5-4560-b4ec-21cc725d6e93",
                     "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ae5ab0e1-40df-49c5-98ee-6e066cfab905",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
