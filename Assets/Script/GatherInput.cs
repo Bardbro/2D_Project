@@ -163,6 +163,22 @@ public class GatherInput : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("Menu");
     }
+    public void OnSettingButton()
+    {
+      pause = !pause;
+     if (pause)
+     {
+        Time.timeScale = 0;
+        mycontrol.Player.Disable();
+        ShowPauseMenu();
+     }
+     else
+     {
+        Time.timeScale = 1;
+        mycontrol.Player.Enable();
+        HidePauseMenu();
+     }
+    }
 
 
 }
